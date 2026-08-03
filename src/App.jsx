@@ -44,7 +44,7 @@ const CONTENT = {
       eyebrow: 'JOIN US TO CELEBRATE', number: '01', title: 'The Occasions',
       dateLabel: 'DATE', timeLabel: 'TIME', countdownLabel: 'COUNTING DOWN',
       nikah: {
-        title: 'Nikah Ceremony',
+        title: 'Nikah alias Marriage',
         date: '25th October 2026', day: 'Sunday', time: '10:00 AM onwards',
         badge: 'NIKAH CEREMONY · 25 OCT 2026 · 10:00 AM',
         venue: 'Kadher Deluxe Mahal',
@@ -52,7 +52,7 @@ const CONTENT = {
         addrLabel: 'Venue', directions: 'Get Directions', scanLabel: 'SCAN FOR DIRECTIONS',
       },
       walima: {
-        title: 'Walima Reception',
+        title: 'Walima alias Reception',
         date: '1st November 2026', day: 'Sunday', time: '1:00 PM onwards',
         badge: 'WALIMA RECEPTION · 1 NOV 2026 · 1:00 PM',
         venue: 'Sri Pichamuthu Nayakkar Kalyana Mandapam',
@@ -68,7 +68,7 @@ const CONTENT = {
     },
     closing: {
       verse: '"And We created you in pairs" — Surah An-Naba 78:8',
-      await: 'WE AWAIT THE HONOUR OF YOUR PRESENCE AND DUAS',
+      await: 'WE AWAIT THE HONOUR OF YOUR PRESENCE',
       love:  'WITH LOVE — THE FAMILIES OF ARAFATH & ASSHIFA',
     },
     music: { playing: 'Now Playing', muted: 'Muted' },
@@ -77,7 +77,7 @@ const CONTENT = {
   ta: {
     hero: {
       together: 'எங்கள் குடும்பங்களுடன்',
-      invite:   'எங்கள் நிக்காஹ் & வரவேற்பு விழாவில்\nஉங்கள் வருகையை வேண்டுகிறோம்',
+      invite:   'எங்கள் நிக்காஹ் & வரவேற்பு விழாவில்\nதங்கள் வருகையை வேண்டுகிறோம்',
       scroll:   'கீழே பார்க்கவும்',
       nikahTag: 'நிக்காஹ்', walimaTag: 'வரவேற்பு',
     },
@@ -90,7 +90,7 @@ const CONTENT = {
       eyebrow: 'கொண்டாட எங்களுடன் சேருங்கள்', number: '01', title: 'நிகழ்வுகள்',
       dateLabel: 'தேதி', timeLabel: 'நேரம்', countdownLabel: 'எண்ணிக்கை',
       nikah: {
-        title: 'திருமணம் — நிக்காஹ்',
+        title: 'நிக்காஹ் (எ) திருமணம்',
         date: '25 அக்டோபர் 2026', day: 'ஞாயிறு', time: 'காலை 10:00 மணி முதல்',
         badge: 'நிக்காஹ் விழா · 25 அக்டோபர் 2026 · காலை 10:00',
         venue: 'காதர் டீலக்ஸ் மஹால்',
@@ -98,7 +98,7 @@ const CONTENT = {
         addrLabel: 'இடம்', directions: 'வழிகாட்டி பெறுக', scanLabel: 'வழிகாட்டிக்கு ஸ்கேன் செய்யுங்கள்',
       },
       walima: {
-        title: 'வரவேற்பு — வலீமா',
+        title: 'வலீமா (எ) வரவேற்பு',
         date: '1 நவம்பர் 2026', day: 'ஞாயிறு', time: 'பிற்பகல் 1:00 மணி முதல்',
         badge: 'வரவேற்பு — வலீமா · 1 நவம்பர் 2026 · பிற்பகல் 1:00',
         venue: 'ஸ்ரீ பிச்சமுத்து நாயக்கர் கல்யாண மண்டபம்',
@@ -114,7 +114,7 @@ const CONTENT = {
     },
     closing: {
       verse: '"நாம் உங்களை ஜோடிகளாக படைத்தோம்" — சூரா அன்-நபா 78:8',
-      await: 'உங்கள் வருகையையும் துஆவையும் எதிர்நோக்குகிறோம்',
+      await: 'தங்கள் வருகையையும் எதிர்நோக்குகிறோம்',
       love:  'அன்புடன் — அரஃபாத் மற்றும் அஷ்ஷிஃபாவின் குடும்பங்கள்',
     },
     music: { playing: 'இசை ஒலிக்கிறது', muted: 'மௌனம்' },
