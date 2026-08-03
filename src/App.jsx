@@ -186,7 +186,6 @@ function Preloader({ onComplete }) {
       <motion.div className="pl-text"
         initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.7, duration: 0.9 }}>
-        <p className="pl-arabic">بِسْمِ اللهِ الرَّحْمنِ الرَّحِيْمِ</p>
         <p className="pl-en">ARAFATH A &amp; ASSHIFA S</p>
         <p className="pl-invite-line">
           You are cordially invited to our Wedding
@@ -269,7 +268,6 @@ function MobileView({ C }) {
 
       {/* HERO */}
       <div className="m-hero">
-        <p className="m-bismillah">بِسْمِ اللهِ الرَّحْمنِ الرَّحِيْمِ</p>
         <p className="m-together">{C.hero.together}</p>
         <div className="m-names">
           <span className="m-name">ARAFATH A</span>
@@ -561,10 +559,6 @@ function DesktopView({ C }) {
         </motion.div>
         <div className="hero__veil" />
         <motion.div className="hero__body" style={{ y: heroTextY, opacity: heroOpacity }}>
-          <motion.p className="hero__bismillah"
-            initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3, duration: 1 }}>
-            بِسْمِ اللهِ الرَّحْمنِ الرَّحِيْمِ
-          </motion.p>
           <motion.p className="hero__together"
             initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.65, duration: 0.9 }}>
             {C.hero.together}
